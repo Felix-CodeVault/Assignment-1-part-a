@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="First Commit and Push. Part a complete">
+    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="2nd update with accesser and mutator methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665350080580</updated>
-      <workItem from="1665350084248" duration="9604000" />
+      <workItem from="1665350084248" duration="12647000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit and Push. Part a complete">
       <created>1665410914658</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665410989759</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2nd update with accesser and mutator methods">
+      <created>1665432908145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665432908145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit and Push. Part a complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit and Push. Part a complete" />
+    <MESSAGE value="2nd update with accesser and mutator methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd update with accesser and mutator methods" />
   </component>
 </project>

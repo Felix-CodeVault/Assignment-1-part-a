@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 group 'org.example'
@@ -7,12 +8,10 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime-dependencies:5.7.1.RELEASE'
-    implementation 'com.github.User:Repo:Tag'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
@@ -20,3 +19,4 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
