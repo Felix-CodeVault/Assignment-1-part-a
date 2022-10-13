@@ -6,6 +6,18 @@ plugins {
 group 'com.github.Felix-CodeVault'
 version '1.0-SNAPSHOT'
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'org.gradle.sample'
+            artifactId = 'library'
+            version = '1.1'
+
+            from components.java
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }

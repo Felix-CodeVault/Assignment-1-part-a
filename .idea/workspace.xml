@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="Added unit tests for all classes v2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="build.gradle updated">
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665350080580</updated>
-      <workItem from="1665350084248" duration="22691000" />
+      <workItem from="1665350084248" duration="22946000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit and Push. Part a complete">
       <created>1665410914658</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665702021992</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="build.gradle updated">
+      <created>1665702485865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665702485865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +200,7 @@
     <MESSAGE value="added maven-plugin id" />
     <MESSAGE value="Added unit tests for all classes" />
     <MESSAGE value="Added unit tests for all classes v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unit tests for all classes v2" />
+    <MESSAGE value="build.gradle updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle updated" />
   </component>
 </project>
