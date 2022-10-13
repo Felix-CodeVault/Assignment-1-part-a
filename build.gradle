@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.example'
+group 'com.github.Felix-CodeVault'
 version '1.0-SNAPSHOT'
 
 repositories {
