@@ -1,8 +1,10 @@
+import java.util.ArrayList;
+
 public class Module {
     private String moduleName;
     private int ID;
-    private Student[] studentList;
-    private courseProgramme[] coursesAssociated;
+    private ArrayList<Student> studentList = new ArrayList<>();
+    private ArrayList<courseProgramme> coursesAssociated = new ArrayList<>();
     private Lecturer lecturerAssociated;
 
     public String getModuleName() {
@@ -21,20 +23,20 @@ public class Module {
         this.ID = ID;
     }
 
-    public Student[] getStudentList() {
+    public ArrayList<Student> getStudentList() {
         return studentList;
     }
 
-    public void setStudentList(Student[] studentList) {
-        this.studentList = studentList;
+    public void addStudentToList(Student student) {
+        studentList.add(student);
     }
 
-    public courseProgramme[] getCoursesAssociated() {
+    public ArrayList<courseProgramme> getCoursesAssociated() {
         return coursesAssociated;
     }
 
-    public void setCoursesAssociated(courseProgramme[] coursesAssociated) {
-        this.coursesAssociated = coursesAssociated;
+    public void addAssociatedCourses (courseProgramme course) {
+        coursesAssociated.add(course);
     }
 
     public Lecturer getLecturerAssociated() {
