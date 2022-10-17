@@ -7,6 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StudentTest {
     private Student student = new Student();
+    private Module module = new Module();
+    private courseProgramme course = new courseProgramme();
     String expected, actual;
     LocalDate DOB = LocalDate.of(1994, 2, 24);
 
@@ -103,6 +105,22 @@ class StudentTest {
         student.setDOB(DOB);
         LocalDate expected = DOB;
         LocalDate actual = student.getDOB();
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void getModules() {
+        student.addModule(module);
+        Class expected = module.getClass();
+        Class actual = student.getRegisteredModules().get(0).getClass();
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void getCourse() {
+        student.addCourse(course);
+        courseProgramme expected = course;
+        courseProgramme actual = student.getRegisteredCourse().get(0);
         assertEquals(expected, actual);
     }
 }

@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Lecturer {
 
@@ -6,6 +7,8 @@ public class Lecturer {
     private String fName, lName, username = getUsername();
     private int age, ID;
     private LocalDate DOB;
+
+    private ArrayList<Module> modulesTeaching = new ArrayList<>();
 
     public String getUsername(){
         return fName + lName + age;
@@ -17,6 +20,13 @@ public class Lecturer {
         this.age = age;
     }
 
+    public void addModule(Module module){
+        modulesTeaching.add(module);
+    }
+
+    public ArrayList<Module> getModulesTeaching(){
+        return getModulesTeaching();
+    }
     public String getfName() {
         return fName;
     }

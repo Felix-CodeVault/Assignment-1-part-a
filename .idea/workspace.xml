@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="build.gradle updated">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="0c935ec5-2be6-4865-a95e-f1714e96ae09" name="Changes" comment="added custom publishing">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LecturerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LecturerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +81,12 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_directory_selection": "C:/Users/Felix/IdeaProjects/Software Engineering/Assignment-1/src/test/java",
-    "last_opened_file_path": "C:/Users/Felix/Downloads/terasoluna-gfw-jodatime-5.7.1.SP1.RELEASE.jar",
+    "last_opened_file_path": "C:/Users/Felix/IdeaProjects/Software Engineering/Assignment-1-part-b",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "spring.configuration.checksum": "c3d66f2acdf2746f94fad4ec518bdb69"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,7 +97,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.StudentTest.getModules">
     <configuration name="Assignment-1 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -112,8 +119,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="StudentTest.getModules" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StudentTest.getModules&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StudentTest.getModules" />
         <item itemvalue="Gradle.Assignment-1 [test]" />
       </list>
     </recent_temporary>
@@ -126,7 +157,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665350080580</updated>
-      <workItem from="1665350084248" duration="22946000" />
+      <workItem from="1665350084248" duration="26354000" />
+      <workItem from="1665962332534" duration="93000" />
+      <workItem from="1666028220614" duration="52000" />
+      <workItem from="1666028298082" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit and Push. Part a complete">
       <created>1665410914658</created>
@@ -177,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665702485865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added custom publishing">
+      <created>1665702741657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665702741657</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +242,7 @@
     <MESSAGE value="Added unit tests for all classes" />
     <MESSAGE value="Added unit tests for all classes v2" />
     <MESSAGE value="build.gradle updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="build.gradle updated" />
+    <MESSAGE value="added custom publishing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added custom publishing" />
   </component>
 </project>
