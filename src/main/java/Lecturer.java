@@ -25,7 +25,7 @@ public class Lecturer {
     }
 
     public ArrayList<Module> getModulesTeaching(){
-        return getModulesTeaching();
+        return modulesTeaching;
     }
     public String getfName() {
         return fName;
